@@ -1,5 +1,16 @@
 # python 开发规范
 
+## 代码检查工具
+### 工具
+* pylint  
+* pycharm --> code --> Reformat Code  格式化当前文件代码格式
+* pycharm --> 右击项目 --> Inspect Code  根据pep8格式检查当前项目.
+
+### 提交
+* 每次提交代码前，自己 Inspect Code检查一遍代码，尽量修改错误格式。
+* 禁止直接修改master分支，用子分支去提交，然后合并代码。
+
+
 ## 概述
 ### 编码
 * 如无特殊情况, 文件一律使用 UTF-8 编码
@@ -8,6 +19,9 @@
 #!/usr/bin/env python3.6
 # -*- coding: utf-8 -*-
 ```
+
+
+
 
 ### 代码格式
 
@@ -151,14 +165,3 @@ def AvailableZones(self, instance_charge_type, region_id):
     :return:  ['cn-huhehaote-a', 'cn-huhehaote-b']
     """
 ```
-
-### 代码检查工具
-
-* pylint  
-* pycharm --> code --> Reformat Code  格式化当前文件代码格式
-* pycharm --> 右击项目 --> Inspect Code  根据pep8格式检查当前项目.
-
-
-
-
-
